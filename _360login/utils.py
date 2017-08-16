@@ -13,7 +13,3 @@ def md5(s):
     m = hashlib.md5()
     m.update(s.encode())
     return m.hexdigest()
-
-
-if __name__ == '__main__':
-    print(md5('1'))
