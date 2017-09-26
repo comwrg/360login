@@ -9,7 +9,7 @@
 import re
 
 import requests
-import utils
+from . import utils
 
 
 class _360:
